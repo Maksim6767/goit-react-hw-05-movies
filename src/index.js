@@ -5,6 +5,8 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <BrowserRouter basename="/Maksim6767">
     <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
